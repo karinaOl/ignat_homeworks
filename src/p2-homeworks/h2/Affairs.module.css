@@ -1,0 +1,30 @@
+.affair {
+    display: flex;
+}
+.name {
+    width: 100px;
+}
+
+.priority {
+    width: 100px;
+}
+
+.item {
+    margin: 5px;
+}
+
+.button {
+    margin: 12px;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: yellowgreen;
+}

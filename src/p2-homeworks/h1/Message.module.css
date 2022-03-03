@@ -1,0 +1,65 @@
+.wrapper{
+    display: grid;
+    background-color: lightblue;
+    grid-template-columns: 150px 350px;
+    grid-gap: 10px;
+
+}
+
+.avatar{
+    align-self: end;
+    justify-self: end;
+}
+
+.avatar img{
+    width: 80px;
+    border-radius: 50px;
+}
+
+.content {
+    display: grid;
+    position: relative;
+    grid-template-rows: 31px 31px 31px;
+    grid-template-areas:
+    'n'
+    'm'
+    't';
+    height: 100px;
+    width: 325px;
+    background-color: #237f76;
+    border-radius: 25px 25px 25px 0;
+    padding: 10px 25px;
+}
+.content::before {
+    content: "";
+    position: absolute;
+
+    background-color: transparent;
+    bottom: 0;
+    left: -50px;
+    height: 25px;
+    width: 50px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 25px 0 0 0 #237f76;
+}
+
+.name{
+    grid-area: n;
+    padding: 5px;
+}
+
+.message {
+    grid-area: m;
+    padding: 5px;
+}
+
+.time{
+    grid-area: t;
+    justify-self: end;
+    padding: 15px;
+    font-size: 11px;
+}
+
+
+
+
