@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    width: 265px;
+    align-items: center;
+    transform: translate(-235px);
+    transition: 1s 0.5s;
+}
+
+.navbar:hover{
+    transform: translate(0);
+}
+
+.item{
+    display: inline-block;
+    background-color: plum;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #551a8b;
+}
+
+.active{
+    background-color: palevioletred;
+}
+
+.menuIcon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: darkmagenta;
+    margin-left: 10px;
+}
+
