@@ -1,0 +1,9 @@
+.item {
+    width: 200px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.name, .age {
+    margin: 5px;
+}
